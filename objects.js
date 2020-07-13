@@ -1,1 +1,1 @@
-var playlist = { artistName: 'songTitle'};
+var playlist = new Object({keys: 0})
