@@ -1,7 +1,7 @@
 var playlist = { artistName: 'songTitle'};
 
-function updatePlaylist(thePlaylist, 'Phil Ochs', "Here's to the State of Mississippi") {
-  return Object.assign({}, thePlaylist, { [artistName]: songTitle});
+function updatePlaylist(thePlaylist, artistName, songTitle) {
+  return Object.assign({}, playlist, { [artistName]: songTitle});
 }
 
 updatePlaylist(playlist, "artist4", "song4");
